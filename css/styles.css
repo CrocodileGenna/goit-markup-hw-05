@@ -528,6 +528,44 @@ main.main {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.photo-d{
+  position: relative;
+}
+.photo-d .text{
+  display: flex;
+  position: absolute;
+
+  width: 370px;
+  height: 294px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+
+
+  text-align: left;
+  justify-content: center;
+align-items: center;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+
+  color: #fff;
+  background-color: var(--akcent);
+
+  /* outline: 1px solid tomato; */
+}
+.photo-text:hover .photo-d .text,
+.photo-text:focus .photo-d .text{
+  opacity: 0.85;
+}
+
 .photo-div {
   padding-top: 20px;
   padding-bottom: 20px;

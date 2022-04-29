@@ -14,6 +14,11 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
+a{
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -26,6 +31,7 @@ b {
   margin: 0;
   padding: 0;
 }
+
 .list {
   list-style: none;
   padding: 0;
@@ -510,7 +516,7 @@ main.main {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-  /* justify-content: space-between; */
+  
 }
 .photo-t-p .item {
   margin-right: 30px;
@@ -528,6 +534,7 @@ main.main {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+/* ------------------------------ */
 .photo-d{
   position: relative;
 }
@@ -541,23 +548,18 @@ main.main {
   padding-right: 23px;
   padding-top: 64px;
   padding-bottom: 64px;
-
-  font-weight: 400;
-font-size: 18px;
-line-height: 1.56;
-
-
-  text-align: left;
-  justify-content: center;
-align-items: center;
-
+  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
 
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
   color: #fff;
   background-color: var(--akcent);
+  
 
   /* outline: 1px solid tomato; */
 }
@@ -574,7 +576,6 @@ align-items: center;
 
   border: 1px solid #eeeeee;
 }
-
 .photo-main {
   color: var(--primery-text-cplor);
   font-weight: 700;

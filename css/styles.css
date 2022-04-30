@@ -264,7 +264,7 @@ header {
   margin-right: 30px;
 }
 .work .work-icon{
-  w
+  background-color:var(--secondary-color);
 }
 /* .content .work .item::before {
   display: block;

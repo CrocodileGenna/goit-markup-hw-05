@@ -266,11 +266,11 @@ header {
 .content .work .item:not(:last-child) {
   margin-right: 30px;
 }
-/* .work .work-icon{
+.work .work-icon{
   width: 250px;
   height: 120px;
   background-color:var(--secondary-color-two)
-} */
+}
 .content .work .item::before {
   display: block;
   content: "";

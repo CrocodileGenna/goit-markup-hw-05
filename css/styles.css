@@ -13,6 +13,7 @@ body {
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+
 }
 
 a{
@@ -104,7 +105,9 @@ b {
 /* HEADER ---------------------------------------- */
 
 header {
+  top: 0%;
   border: 1px solid #ececec;
+  background-color: #fff;
 }
 .main-meny {
   display: flex;
@@ -263,18 +266,18 @@ header {
 .content .work .item:not(:last-child) {
   margin-right: 30px;
 }
-.work .work-icon{
+/* .work .work-icon{
   width: 250px;
   height: 120px;
   background-color:var(--secondary-color-two)
-}
-/* .content .work .item::before {
+} */
+.content .work .item::before {
   display: block;
   content: "";
   height: 120px;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: contain; 
+  /* /* background-size: contain;  */
   background-color: var(--secondary-color-two);
 }
 .content .work .icon1::before {
@@ -288,7 +291,7 @@ header {
 }
 .content .work .icon4::before {
   background-image: url(../images/icon.svg/astronaut\ 1.svg);
-} */
+}
 
 .content .work-main {
   display: flex;
@@ -499,16 +502,21 @@ header {
   border: 1px solid var(--akcent)
 }
 
-.permanent-clients .logos{
+.permanent-clients .logos{ 
+  position: relative;
   display: inline-block;
   padding: 0;
   width: 106px;
   height: 60px;
-  margin-top: 16px;
-  margin-left: 32px;
+  /* margin-top: 16px;
+  margin-left: 32px; */
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   fill: currentColor;
 
-  /* outline: 1px solid tomato; */
+  outline: 1px solid tomato;
 }
 
 /* content two page ---------------------------------------- */
@@ -521,7 +529,6 @@ main.main {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-  
 }
 .photo-t-p .item {
   margin-right: 30px;
@@ -541,14 +548,14 @@ main.main {
 
 /* ------------------------------ */
 .photo-d{
-  position: relative;
+  position:relative;
 }
 .photo-d .text{
   display: flex;
   position: absolute;
 
-  width: 370px;
-  height: 294px;
+  width: 100%;
+  height: 100%;
   padding-left: 23px;
   padding-right: 23px;
   padding-top: 64px;
@@ -572,7 +579,7 @@ main.main {
 .photo-text:focus .photo-d .text{
   opacity: 0.85;
 }
-
+/* ------------------------------------ */
 .photo-div {
   padding-top: 20px;
   padding-bottom: 20px;

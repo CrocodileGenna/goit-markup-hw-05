@@ -271,13 +271,13 @@ header {
   height: 120px;
   background-color:var(--secondary-color-two)
 }
-.content .work .item::before {
+/* .content .work .item::before {
   display: block;
   content: "";
   height: 120px;
   background-position: center;
   background-repeat: no-repeat;
-  /* /* background-size: contain;  */
+  / background-size: contain;  
   background-color: var(--secondary-color-two);
 }
 .content .work .icon1::before {
@@ -291,7 +291,7 @@ header {
 }
 .content .work .icon4::before {
   background-image: url(../images/icon.svg/astronaut\ 1.svg);
-}
+} */
 
 .content .work-main {
   display: flex;

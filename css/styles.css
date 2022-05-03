@@ -792,6 +792,7 @@ footer {
   padding: 0;
   margin: 0;
   border: 0;
+  cursor: pointer;
 }
 .modal .close .icon {
   padding: 0;

@@ -261,7 +261,13 @@ header {
   min-height: 581px;
   background-color: #fff;
 }
-
+.close{
+  display: inline-block;
+  padding: 0;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
 /* MAIN ---------------------------------------- */
 /* main{
   padding-top: 80px;

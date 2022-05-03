@@ -17,8 +17,8 @@
     referrerpolicy="no-referrer"
   />
   <link rel="stylesheet" href="./css/styles.css"/>
-  <link rel="stylesheet" href="./css/modal.js"/>
-  <link rel="stylesheet" href="./css/head-fixed.js"/>
+  <link rel="stylesheet" href="./js/modal.js"/>
+  <link rel="stylesheet" href="./js/head-fixed.js"/>
   <link rel="stylesheet" href="./images/icons.svg"/>
 </head>
 <body>
@@ -45,7 +45,7 @@
       <!-- auth -->
       <ul class="site-auth list" >
         <li class="item">
-          <a href="emailto:info@devstudio.com" class="link" data-open-modal>
+          <a href="emailto:info@devstudio.com" class="link" >
             <svg class="items">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
@@ -67,7 +67,7 @@
   <main>
     <!-- hero -->
     <section class="content hero Icon-Hero">
-      <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+      <h1 class="hero-text" data-open-modal>Эффективные решения для вашего бизнеса</h1>
       <button class="primary" type="button">Заказать услугу</button>
     </section>
 
@@ -415,7 +415,8 @@
       </div>
     </div>
   </footer>
-  <div class="backdrop is-hidden" >
+  <script src="./js/modal.js">
+    <div class="backdrop is-hidden" >
     <div class="modal">
       <button class="close" data-close-modal>
         <svg class="icon" width="25px" height="25px">
@@ -424,4 +425,5 @@
       </button>
     </div>
   </div>
+  </script>
 </body>

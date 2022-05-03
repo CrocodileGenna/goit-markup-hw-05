@@ -67,8 +67,8 @@
   <main>
     <!-- hero -->
     <section class="content hero Icon-Hero">
-      <h1 class="hero-text" data-open-modal>Эффективные решения для вашего бизнеса</h1>
-      <button class="primary" type="button">Заказать услугу</button>
+      <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+      <button class="primary" type="button" data-modal-open>Заказать услугу</button>
     </section>
 
     <!-- approach in work -->
@@ -415,15 +415,14 @@
       </div>
     </div>
   </footer>
-  <script src="./js/modal.js">
-    <div class="backdrop is-hidden" >
+  <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-      <button class="close" data-close-modal>
+      <button class="close" data-modal-close>
         <svg class="icon" width="25px" height="25px">
           <use href="./images/close.svg"></use>
         </svg>
       </button>
     </div>
   </div>
-  </script>
+  <script src="./js/modal.js"></script>
 </body>

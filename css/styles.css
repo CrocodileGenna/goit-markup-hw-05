@@ -67,7 +67,15 @@ b {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+
+  /* transition-property: background-color border-radius;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
+/* .hero .primary:hover {
+  background-color: rgb(219, 176, 44);
+  border-radius: 50px;
+} */
 
 /* button two page ---------------------------------------- */
 .two-page.conteiner .list.main {
@@ -266,7 +274,7 @@ header {
 }
 .content.hero.icon-Hero {
   display: block;
-  background-image: url(../images/Img-Hero.jpg);
+  background-image: url(../images/img-Hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -863,12 +871,21 @@ footer {
 }
 .modal .close {
   display: inline-block;
+
   padding: 0;
   margin-left: 492px;
   border: 0;
   cursor: pointer;
+  border-radius: 50%;
 
   background-color: #fff;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal .close:hover {
+  background-color: var(--akcent);
 }
 .modal .close .icon {
   padding: 0;

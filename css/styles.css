@@ -873,23 +873,38 @@ footer {
   display: inline-block;
 
   padding: 0;
-  margin-left: 492px;
+  margin-left: 495px;
+  margin-top: 5px;
   border: 0;
-  cursor: pointer;
   border-radius: 50%;
 
+  cursor: pointer;
+
+  outline: 1px solid var(--secondary-color);
   background-color: #fff;
 
-  transition-property: background-color;
+  transition-property: background-color outline;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal .close:hover {
   background-color: var(--akcent);
+  outline: 1px solid var(--akcent);
 }
-.modal .close .icon {
-  padding: 0;
-  margin-right: 10px;
+.modal .icon-close {
+  display: inline-block;
+  padding: 4px;
+  margin: 0;
+
   width: 25px;
   height: 25px;
+
+  color: #212121;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal .icon-close:hover {
+  color: var(--primary-wite-color);
 }

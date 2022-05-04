@@ -762,6 +762,14 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer .footer-adres:hover,
+.footer .footer-adres:focus {
+  color: var(--akcent);
 }
 .footer .footer-nav {
   display: inline-block;
@@ -771,6 +779,14 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer .footer-nav:hover,
+.footer .footer-nav:focus {
+  color: var(--akcent);
 }
 /* ----------------------- */
 .footer .dop-info {

@@ -272,9 +272,16 @@ header {
   background-color: var(--color-fon-hed-fot);
   text-transform: uppercase;
 }
+
 .content.hero.icon-Hero {
   display: block;
-  background-image: url(../images/Img-Hero.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img-Hero.jpg);
+  max-width: 1600px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -309,7 +316,6 @@ header {
 .work .work-div {
   position: relative;
 
-  width: 250px;
   height: 120px;
   background-color: var(--secondary-color-two);
 }
